@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_container"
+    style="@style/Widget.Android.AppWidget.Container"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:theme="@style/Theme.Android.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/headline_title"
+        style="@style/Widget.Android.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="-5dp"
+        android:layout_marginLeft="0dp"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"
+        android:text="Title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>
